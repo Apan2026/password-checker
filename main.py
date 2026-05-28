@@ -1,8 +1,9 @@
 import re
+from getpass import getpass
 
 print("=== Password Strength Checker ===")
 
-password = input("Enter your password: ")
+password = getpass("Enter your password: ")
 
 strength = 0
 
